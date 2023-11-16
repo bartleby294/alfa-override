@@ -1,0 +1,64 @@
+node dummy 06_DWK_dp_closed_01
+  parent mst04_door_06_DWK
+  position  0.00000 -0.00344  0.09354
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy 06_DWK_dp_closed_02
+  parent mst04_door_06_DWK
+  position  0.00000 -0.00011  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy 06_DWK_dp_open1_01
+  parent mst04_door_06_DWK
+  position  0.00000  0.00009  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy 06_DWK_dp_open2_01
+  parent mst04_door_06_DWK
+  position  0.00000 -0.00705  0.08757
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node trimesh 06_DWK_wg_closed
+  parent mst04_door_06_DWK
+  position  0.00000  0.02000  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 0.54 0.03 0.43
+  verts 4
+    -0.75504 -0.72719  0.00000
+     0.63497 -0.72719  0.00000
+    -0.75708  0.68220  0.00000
+     0.63293  0.68220  0.00000
+  faces 2
+    0 2 3 1  0 0 0 0
+    3 1 0 1  0 0 0 0
+endnode
+node trimesh 06_DWK_wg_open1
+  parent mst04_door_06_DWK
+  position -0.77853  0.02000  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 0.54 0.03 0.43
+  verts 5
+     0.02349 -0.72719  0.00000
+     1.41350 -0.72719  0.00000
+     0.02145  0.68220  0.00000
+     1.41146  0.68220  0.00000
+     3.80000  0.20000  0.00000
+  faces 2
+    0 2 3 1  0 0 0 0
+    3 1 0 1  0 0 0 0
+endnode
+node trimesh 06_DWK_wg_open2
+  parent mst04_door_06_DWK
+  position -0.60936  0.02000  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 0.54 0.03 0.43
+  verts 5
+    -0.14568 -0.72719  0.00000
+     1.24433 -0.72719  0.00000
+    -0.14772  0.68220  0.00000
+     1.24229  0.68220  0.00000
+     3.85000  0.20000  0.00000
+  faces 2
+    0 2 3 1  0 0 0 0
+    3 1 0 1  0 0 0 0
+endnode
